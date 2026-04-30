@@ -4,8 +4,6 @@ import random
 import json
 
 dotenv.load_dotenv()
-API = dotenv.get_key(dotenv.find_dotenv(), "API_KEY")
-client = bs.Client(API)
 
 def get_random_brawler():
     """Ouvre le fichier brawlers.json et retourne un brawler au hasard"""
